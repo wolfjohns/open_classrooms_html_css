@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Brooklyn Film Festival</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -21,24 +21,24 @@
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top bg-warning">
-        <a class="navbar-brand" href="#">August 5th to 8th</a>
+        <a class="navbar-brand" href="#">August 5th to 8th Brooklyn Park</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto"></ul>
-            <li class="nav-item active">
-                <a class="nav-link" data-value= "home" href="#">Home</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" data-value= "about" href="#">About</a>
+            <li class="nav-item">
+                <a class="nav-link" data-value="home" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-value="films" href="#">Films</a>
+                <a class="nav-link" data-value="about" href="#about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-value="schedule" href="#">Schedule</a>
+                <a class="nav-link" data-value="films" href="#films">Films</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-value="schedule" href="#schedule">Schedule</a>
             </li>
             </ul>
         </div>
@@ -48,41 +48,305 @@
     </nav>
     <!-- header -->
     <header class="header">
-      <div class="overlay"></div>
-        <div class="container">
-            <div class="description">
-                <h2>2019 Brooklyn Outdoor Film Festival
-                    <p>cillum dolore eu fugiat nulla pariatur.
-                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                     deserunt mollit anim id est laborum. 
-                    </p>
-                    <button class="btn btn-outline-secondary btn-lg">See more</button>
-                </h2>
+        <div class="overlay">
+            <div class="container">
+                <div class="description">
+                    <h2>2019 Brooklyn Outdoor Film Festival
+                        <p>This year at the 2019 Brooklyn Film Festival our theme will be "Coming of Age".  
+                         These films are considered classics of their generation.  The difficulties of being a teen and
+                         growing up.  Though the movies span over 40 years the facts never change.  It is always difficult
+                         to become an adult.
+                        </p>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn1 btn-danger btn-lg d-flex m-auto" data-toggle="modal"
+                                data-target="#registerModal">
+                                Register now for tickets!
+                            </button>
+                            <a href="#films">
+                                <button type="button" class="btn2 btn-dark btn-lg d-none d-sm-block">Films</button>
+                            </a>
+                        </div>
+                    </h2>
+                </div>
             </div>
         </div>
     </header>
 
+
+    <h2 id="about" class="display-4 text-center mb-5">About</h2>
+
     <div class="row">
         <!-- left side -->
         <div class="col-lg-6 col-md-4 col-sm-12">
-            <img src="../media/about_film_fest.jpg" class="img-fluid">
-            <span class="text-justify">Films and festivities</span>
+            <img src="../media/brooklyn_bridge_park_2.jpg" class="img-fluid">
         </div>
         <div class="col-lg-6 col-md-8 col-sm-12 desc">
-            <h3>Films and festivities at Brooklyn Park's outdoor film festival</h3>
+            <h3 class="titlefilms">Films and festivities at Brooklyn Park's outdoor film festival</h3>
             <p>
                 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-             </p>
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <br>
+            <p>
+                    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            <br>
+            <p>
+                Id sit lorem euismod possimus urna, volutpat nunc tempor nisl vivamus, libero ratione turpis, ligula dictum ut tortor ut. Nisi cras vestibulum purus, torquent 
+                orci tristique libero, nec scelerisque nec tellus, tortor tincidunt montes sed. Felis eget placerat sapien. Et porta ultrices et. Sit praesent felis ornare, nonummy 
+                vitae libero ac, mauris mus aenean, deleniti duis feugiat sit arcu fringilla justo. Auctor nec orci sed ligula quam, dictum fusce sodales. Ac pellentesque donec neque,
+                quis at justo natoque, in pellentesque habitasse, sit eget urna nibh eleifend. Quis quam quisque, massa integer justo in ut, tempor aenean dictum diam maecenas, placerat
+                lacus commodo odio, vel sapien amet vitae aliquam sint pellentesque.
+            </p>
         </div>
     </div>
 
+    <div class="film_cat">
+        <h2 id="films" class="display-3 text-center mb-3 text-muted">Films</h2>
+    </div>
+ 
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" style="margin-bottom: 3em";>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <img class="card-img-top embed-responsive-item" src="../media/the_graduate_poster.jpg" alt="The Graduate">
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">The Graduate</h5>
+                    <p class="card-text">The film tells the story of 21-year-old Benjamin Braddock (Dustin Hoffman), a recent college graduate
+                        with no well-defined aim in life, who is seduced by an older woman, Mrs. Robinson (Anne Bancroft), and then falls 
+                        in love with her daughter Elaine (Katharine Ross).</p>
+                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-sm-6">
+                <div class="card" style="margin-bottom: 3em;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <img class="card-img-top embed-responsive-item" src="../media/lady_bird_poster_2.jpg" alt="Lady Bird">
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Lady Bird</h5>
+                    <p class="card-text">Lady Bird is a 2017 American coming-of-age comedy-drama film written and directed by Greta Gerwig and starring Saoirse Ronan, Laurie Metcalf,
+                        Tracy Letts, Lucas Hedges, Timothée Chalamet, Beanie Feldstein, Stephen McKinley Henderson, and Lois Smith.  Set in Sacramento, California,
+                        in 2002.
+                    </p>
+                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <img class="card-img-to embed-responsive-item" src="../media/boyz_n_the_hood.jpg" alt="Boyz N the Hood">
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Boyz N the Hood</h5>
+                    <p class="card-text"> John Singleton’s portrayal of social problems in inner-city Los Angeles takes the form of a tale of three friends
+                     growing up together in the ‘hood. The problems they face.  Drugs, violence and disenchanted with the society that they live in.  This is
+                    the story of the hood presented by a black filmmaker.</p>
+                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <img class="card-img-top embed-responsive-item" src="../media/sixteen_candles_poster.jpg" alt="Sixteen Candles">
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Sixteen Candles</h5>
+                    <p class="card-text">High school sophomore Samantha "Sam" Baker struggles to go through the day on her 16th birthday, 
+                    which her entire family has forgotten about because her older sister, Ginny, is getting married the next day. She is also infatuated with a popular and attractive senior,
+                    Jake Ryan.</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <img class="card-img-top embed-responsive-item" src="../media/mean_girls.jpg" alt="Mean Girls">
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Mean Girls</h5>
+                    <p class="card-text">Cady Heron moves to a new home from the bush country of Africa. She goes to a new school where
+                    she meets Janis and Damian. Her new friends warn her to stay away from the Plastics: the A-list, popular.</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <img class="card-img-top embed-responsive-item" src="../media/the_breakfast_club.jpg" alt="The Breakfast Club">
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">The Breakfast Club</h5>
+                    <p class="card-text">They were five students with nothing in common, faced with spending a Saturday detention
+                     together in their high school library. At 7 a.m., they had nothing to say, but by 4 p.m., they had bared their… </p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                 </div>
+             </div>
+
+        </div>
+
+        <!-- movies wil be shown -- schedule -->
+
+        <div id="schedule" class="col schedule id=#schedule" style="margin-top: 3em";>
+        <h1 class="display-4 text-center mb-5 text-muted">Schedule</h1>
+        <ul class=" list-group mb-4">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <h4>The Graduate</h4>
+                <h5>Will be shown at 6pm on the 5th of August</h5>
+                <span class="badge" >
+                <img src="../media/the_graduate_btn.jpg" alt="The Graduate" style="border:4px inset black; border-radius: 4px";/>
+                </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <h4>Sixteen Candles</h4>
+                <h5>Will be shown at 9pm on the 5th of August</h5>
+                <span class="badge">
+                <img src="../media/sixteen_candles_btn2.jpg" alt="Sixteen Candles" style="border:4px inset black; border-radius: 4px";/>
+                </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <h4>The Breakfast Club</h4>
+                <h5>Will be shown at 8pm on the 6th of August</h5>
+                <span class="badge">
+                <img src="../media/the_breakfast_club_btn.jpg" alt="The Breakfast Club" style="border:4px inset black; border-radius: 4px";/>
+                 </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <h4>Boyz N the Hood</h4>
+                <h5>Will be shown at 6pm on the 7th of August</h5>
+                <span class="badge">
+                <img src="../media/boyz_n_the_hood_btn.jpg" alt="Boyz n the Hood" style="border:4px inset black; border-radius: 4px";/>
+                </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                 <h4>Lady Bird</h4>
+                 <h5>Will be shown at 9pm on the 7th of August</h5>
+                 <span class="badge">
+                 <img src="../media/lady_bird_btn.jpg" alt="Lady Bird" style="border:4px inset black; border-radius: 4px";/>
+                 </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <h4>Mean Girls</h4>
+                <h5>Will be shown at 8pm on the 8th of August</h5>
+                <span class="badge">
+                <img src="../media/mean_girls_btn.png" alt="Mean Girls" style="border:4px inset black; border-radius: 4px";/>
+                    </span>
+            </li>
+            
+        </ul>
+
+        
+<!-- Footer -->
+<footer class="page-footer font-medium bg-dark text-white-50 pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container">
+    
+         
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-fb mx-1">
+                <i class="fab fa-facebook-f"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-tw mx-1">
+                <i class="fab fa-twitter"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-gplus mx-1">
+                <i class="fab fa-google-plus-g"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-li mx-1">
+                <i class="fab fa-linkedin-in"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-dribbble mx-1">
+                <i class="fab fa-dribbble"> </i>
+              </a>
+            </li>
+          </ul>
+        
+    
+        </div>
+        <!-- Footer Elements -->
+    
+        
+        <div class="footer-copyright text-center py-3">@ 2019 Copyright
+          <p>Brooklyn Film Festival Ltd.</p>
+        </div>
+      
+    
+      </footer>
+     
+
+    <!-- Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="Register" aria-hidden="true">        
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register for Brooklyn Outdoor Film Festival</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-light alert-dismissible fade show" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <strong>Just Register!</strong>
+                    </div>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="email" class="form-control" id="name" placeholder="Mark Jones">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="yourname@mail.com">
+                    </div>
+                    <div class="form-group">
+                            <label for="films">Choose a Film</label>
+                            <select class="form-control" id="films">
+                                <option>The Graduate</option>
+                                <option>Sixteen Candles</option>
+                                <option>Boyz N The Hood</option>
+                                <option>Lady Bird</option>
+                                <option>Mean Girls</option>
+                                <option>The Breakfast Club</option>
+                            </select>
+                        </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -90,4 +354,5 @@
     <script type="text/javascript" src='../js/main.js'></script>
     <script src="../js/bootstrap.min.js"></script>
 </body>
+
 </html>

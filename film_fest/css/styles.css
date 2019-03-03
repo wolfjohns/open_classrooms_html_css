@@ -30,6 +30,7 @@ background-position: center;
 	background: rgba(244, 244, 244, 0.36);
 }
 
+
 .description {
 	position: absolute;
 	top: 30%;
@@ -48,10 +49,18 @@ background-position: center;
 	line-height: 1.5;
 }
 
-.description button {
-	border: 1px solid #F97300;
-	background: #F97300;
+.description btn1 {
+	border: 1px solid #fff;
 	color: #fff;
+	display: "block";
+	margin-right: 4px;
+}
+
+.description btn2 {
+	border: 1px solid #fff;
+	color: #fff;
+	display: "block";
+	margin-left: 4px;
 }
 
 .about {
@@ -91,3 +100,30 @@ background-position: center;
 	line-height: 2;
 	color: #888;
 }
+
+#about {
+	color: #000000;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.film_cat {
+	padding-top: 3em;
+	font-weight: 500;
+}
+
+h3.titlefilms {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.card {
+	border: 0 !important;
+}
+
+/*.card-img-top {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+} 
+*/
